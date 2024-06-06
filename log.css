@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --color1: #0970cd;
+  --color2: #e1e4ec;
+  --color3: #1e2126;
+  --color4: #ffff49;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+body {
+  color: var(--color3);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.main {
+  width: 100vw;
+  flex-direction: column;
+  gap: 36px;
+  font-family: "Rubik", sans-serif;
+  color: var(--color3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 16px;
+}
+
+p {
+  color: #9b9a9a;
+}
+
+input {
+  border: none;
+  height: 36px;
+  width: 250px;
+  color: var(--color1);
+}
+
+input {
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  color: #1e2126;
+}
+
+::placeholder {
+  color: #dadada;
+}
+
+.emailInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  border-bottom: #0970cd 1px solid;
+  margin-bottom: 16px;
+}
+
+.passInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  border-bottom: #0970cd 1px solid;
+  margin-bottom: 16px;
+}
+
+i {
+  font-size: 32px;
+}
+
+.card {
+  width: 340px;
+  height: 400px;
+  padding: 26px;
+  box-shadow: 5px 5px 11px #d9d9d9, -5px -5px 11px #e7e7e7;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#iff {
+  margin-top: 46px;
+  margin-bottom: 12px;
+}
+
+#et {
+  margin-bottom: 26px;
+}
+
+.card button {
+  color: white;
+  background-color: #0970cd;
+  border: none;
+  margin-top: 26px;
+  padding: 12px 0px;
+  border-radius: 8px;
+  font-size: small;
+  cursor: grab;
+  width: 300px;
+}
+
+.card button h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.forg {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+#fp {
+  color: #d9d9d9;
+}
+
+#cfg {
+  width: 130px;
+}
+
+#wf {
+  width: 100px;
+}
+
+.carde {
+  width: 340px;
+  height: 440px;
+  padding: 26px;
+  box-shadow: 5px 5px 11px #d9d9d9, -5px -5px 11px #e7e7e7;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carde button {
+  color: white;
+  background-color: #0970cd;
+  border: none;
+  margin-top: 26px;
+  padding: 12px 0px;
+  border-radius: 8px;
+  font-size: small;
+  cursor: grab;
+  width: 300px;
+}
+
+.carde button h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 11;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 5px 5px 11px #d9d9d9, -5px -5px 11px #e7e7e7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+#navbar .s2 {
+  display: flex;
+  gap: 66px;
+}
+
+#navbar .s2 a {
+  color: var(--color3);
+  transition: all 0.25s ease-in-out;
+  border: none;
+}
+
+#navbar .s2 a:hover {
+  border-bottom: 1px #0970cd solid;
+}
+
+#navbar .s2 > :not(:hover) {
+  color: #676869;
+}
+
+#navbar .s3 .getstarted {
+  color: white;
+  background-color: #0970cd;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+}
+
+#navbar .s3 .getstarted:hover {
+  background-color: var(--color3);
+}
+
+/* footer */
+
+#support {
+  height: 30vh;
+  background-color: var(--color1);
+}
+.foot {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  flex-direction: row;
+}

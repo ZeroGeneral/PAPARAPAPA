@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --color1: #0970cd;
+  --color2: #e1e4ec;
+  --color3: #1e2126;
+  --color4: #ffff49;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+}
+body {
+  color: var(--color3);
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 11;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 5px 5px 11px #d9d9d9, -5px -5px 11px #e7e7e7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+#navbar .s2 {
+  display: flex;
+  gap: 66px;
+}
+
+#navbar .s2 a {
+  color: var(--color3);
+  transition: all 0.25s ease-in-out;
+  border: none;
+}
+
+#navbar .s2 a:hover {
+  border-bottom: 1px #0970cd solid;
+}
+
+#navbar .s2 > :not(:hover) {
+  color: #676869;
+}
+
+#navbar .s3 .getstarted {
+  color: white;
+  background-color: #0970cd;
+  padding: 12px;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+}
+
+#navbar .s3 .getstarted:hover {
+  background-color: var(--color3);
+}
+
+/* footer */
+
+#support {
+  height: 30vh;
+  background-color: var(--color1);
+}
+.foot {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  flex-direction: row;
+}
+
+/* main part */
+
+.main {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EXPLORE {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* products css */
+
+#products {
+  height: 200vh;
+  display: flex;
+  padding: 136px;
+  justify-content: center;
+}
+
+#products #Identi {
+  color: var(--color1);
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 106px;
+  justify-content: center;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+}
+
+.product {
+  box-shadow: 5px 5px 11px #d9d9d9, -5px -5px 11px #e7e7e7;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: var(--color1);
+  width: 300px;
+  height: 380px;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.pimg {
+  height: 60%;
+}
+
+.product img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.prName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 16px 0px 16px;
+}
+
+.altDesc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 16px 0px 16px;
+}
+
+.price {
+  font-weight: 300;
+  color: var(--color4);
+}
+
+.buydiv {
+  margin: 16px 16px 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy {
+  width: 300px;
+  height: 40px;
+  background-color: var(--color1);
+  color: #ffff49;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  border: #ffff49 1px solid;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy:hover {
+  color: var(--color1);
+  background-color: #ffff49;
+  border: none;
+}
+
+#Identi {
+  font-size: 76px;
+}
+
+.produc2 {
+  color: var(--color1);
+  font-family: "Rubik", sans-serif;
+  margin-top: 106px;
+  margin-bottom: 106px;
+  justify-content: center;
+  text-align: center;
+}
